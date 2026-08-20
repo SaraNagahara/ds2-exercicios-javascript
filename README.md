@@ -45,3 +45,7 @@ Um banco de dados pode ser necessário para armazenar e consultar informações 
 
 ## Explicação:
 o erro explica que foi um erro de referência, dizendo que a palavra Console com C maiúsculo não esta definida ou seja ela não existe.
+
+# Exercício 6 - por que `20 + 5` pode resultar em `205` quando o valor `20` é recebido pelo `prompt()` sem conversão?
+
+Porque a linguagem de programação interpreta como concatenação. mesma lógica quando você coloca por exemplo "Olá," + "mundo" ele vai colocar o mundo do lado do olá, mesma coisa mesmo sendo numero ele apenas adiciona um ao lado do outro como concatenação, por isso que para a linguagem entender que você esta querendo somar você deve transformar ele em número em um parseInt ou parseFloat para que a linguagem entenda que são números e que você esta somando e não concatenando.
